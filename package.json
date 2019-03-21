@@ -1,0 +1,20 @@
+{
+  "name": "contrato-base",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node deploy.js",
+    "build": "node compile.js",
+    "test": "mocha"
+  },
+  "author": "Gleidson Ferreira Braga",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "6.1.0",
+    "mocha": "5.1.1",
+    "solc": "0.4.23",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "1.0.0-beta.34"
+  }
+}
